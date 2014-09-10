@@ -43,6 +43,7 @@ public class Arithmetic{
         int totalDrinkingGlassesSalesTaxRounded$;
         totalDrinkingGlassesSalesTaxRounded$=(int)(totalDrinkingGlassesSalesTax$*100);
         double totalDrinkingGlassesSalesTaxRoundedd=totalDrinkingGlassesSalesTaxRounded$;
+        
         int totalEnvelopeSalesTaxRounded$;
         totalEnvelopeSalesTaxRounded$=(int)(totalEnvelopeSalesTax$*100);
         double totalEnvelopeSalesTaxRoundedd=totalEnvelopeSalesTaxRounded$;
