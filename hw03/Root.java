@@ -6,7 +6,7 @@
 //  import the Scanner Class, the only thing in Java that ever happens outside the class
 import java.util.Scanner;
 //  define a class
-    public class Bicycle {
+    public class Root {
 // add main method
         public static void main (String[ ] args) {
 //  declare an instance of the Scanner object
