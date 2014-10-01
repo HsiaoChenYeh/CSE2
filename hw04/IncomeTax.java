@@ -14,14 +14,17 @@ import java.util.Scanner;
             System.out.println("Enter an int giving the number of thousands");
 //  call a method 'nextInt() for myScanner object'
 //  declare variables
+            if(myScanner.hasNextInt())
+        {
             int intIncome = myScanner.nextInt();
             int income= intIncome*1000;
 //  tax rate with corresponding rate
 // <20, 5%     >=20 && <40, 7%
 // >=78, 14%   >=40 && <78, 12%
-                if (intIncome>=0 && intIncome<20){
+                if (intIncome>=0 && intIncome<20)
+            {
                     System.out.println("The tax rate on $"+income+" is 5.0 %, and the tax is "+ income*.05);
-                }
+            }
                 else if (intIncome>=20 && intIncome<40){
                         System.out.println("The tax rate on $"+income+" is 7.0 %, and the tax is "+ income*.07);
                 }
@@ -34,11 +37,11 @@ import java.util.Scanner;
                 else if (intIncome<0){
                         System.out.println("You did not enter a positive int");
                 }
-                else{
+             
+        
+          }
+           else{
                     System.out.println("You did not enter an int");
                 }
-            
-            
-        }
     }
-            
+    }            

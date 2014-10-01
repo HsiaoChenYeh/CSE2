@@ -32,7 +32,7 @@ import java.util.Scanner;
             else if (intMonth==4||intMonth==6||intMonth==9||intMonth==11){
                     System.out.println("The month has 30 days");
             }
-            else if (intMonth==2){
+            else{
                 System.out.println("Enter an int giving the year");
                 int intYear= myScanner.nextInt();
                 int R=intYear%4;
@@ -42,7 +42,6 @@ import java.util.Scanner;
                 else{
                     System.out.println("The month has 29 days");
                 }
-                return;
             }
         }
     }
