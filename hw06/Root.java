@@ -17,7 +17,7 @@ import java.lang.Math;
             myScanner=new Scanner( System.in );
 // prompt user for number
             System.out.println("Enter a positive double");
-//  calls a method 'next() for the myScanner object'
+//  calls a method 'nextDouble() for the myScanner object'
             double x=myScanner.nextDouble();
             if (x<0){
                 System.out.println("You did not enter a positive double");
